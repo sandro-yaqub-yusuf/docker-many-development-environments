@@ -9,7 +9,7 @@
 
 ## Descrição:
 
-Este ambiente possui um contêiner adicional (Composer) sem precisar possuir estas plataformas instaladas. Para rodá-los utilize:
+Este ambiente possui um contêiner adicional (Composer) sem precisar possuir esta plataforma instalada. Para rodá-lo utilize:
 
 * docker-compose run --rm composer [comandos e/ou opções]
 

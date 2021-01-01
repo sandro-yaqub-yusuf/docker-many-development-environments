@@ -1,17 +1,19 @@
-# DOCKER - Ambiente de Desenvolvimento 002
+# DOCKER - Ambiente de Desenvolvimento 003
 
 * Web Service: NGINX (última versão disponivel no momento da criação do contêiner)
 * Linguagem principal: PHP 7.4.13
-* Banco de dados: MariaDB 10.5.8
+* Plataforma adicional: NODE JS 14.15.3
+* Banco de dados: MySQL 5.7.31
 * Instalações adicionais: composer (última versão disponivel no momento da criação do contêiner)
 
 ----
 
 ## Descrição:
 
-Este ambiente possui um contêiner adicional (Composer) sem precisar possuir esta plataforma instalada. Para rodá-lo utilize:
+Este ambiente possui uns contêineres adicionais (Composer e NPM) sem precisar possuir estas plataformas instaladas. Para rodá-los utilize:
 
 * docker-compose run --rm composer [comandos e/ou opções]
+* docker-compose run --rm npm [comandos e/ou opções]
 
 ----
 
