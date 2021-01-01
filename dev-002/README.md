@@ -1,7 +1,7 @@
 # DOCKER - Ambiente de Desenvolvimento 002
 
 * Web Service: NGINX (última versão disponivel no momento da criação do contêiner)
-* Linguagem principal: PHP 7.4.13
+* Linguagem principal: PHP 7.4.13 com XDebug 2.9.8
 * Banco de dados: MariaDB 10.5.8
 * Instalações adicionais: composer (última versão disponivel no momento da criação do contêiner)
 

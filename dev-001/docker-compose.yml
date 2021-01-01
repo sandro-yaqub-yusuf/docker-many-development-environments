@@ -40,6 +40,8 @@ services:
     container_name: php
     volumes:
       - ./src:/var/www/html:delegated
+      # Enable xdebug
+      - ./php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
     ports:
       - "9000:9000"
     networks:
