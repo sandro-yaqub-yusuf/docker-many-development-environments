@@ -1,6 +1,7 @@
 # DOCKER - Vários Ambientes de Desenvolvimento
 
 * Linguagem principal: docker-compose
+* Fonte de pesquisa: https://github.com/aschmelyun/docker-compose-laravel
 * Informações extras: estes scripts foram criados num WINDOWS 10 Professional, com WSL2 e Docker For Windows (Desktop).
 
 ----
