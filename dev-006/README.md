@@ -3,7 +3,6 @@
 * Web Service: NGINX (última versão disponivel no momento da criação do contêiner)
 * Linguagem principal: PHP 7.4.13 com XDebug 2.9.8
 * Framework para PHP: Laravel (a versão que for escolhida no momento da criação do projeto)
-* Plataforma adicional: NODE JS 14.15.3
 * Banco de dados: MariaDB 10.5.8
 * Instalações adicionais: composer (última versão disponivel no momento da criação do contêiner)
 
@@ -21,10 +20,9 @@ Para instalar o LARAVEL mais atual, siga as instruções abaixo:
 * Rode o "ARTISAN MIGRATE" digitando => docker-compose run --rm artisan migrate
 * Veja com o seu gerenciador de BD MariaDB se foi criado novas tabelas no BD configurado no ".env"
 
-Este ambiente possui uns contêineres adicionais (Composer, NPM e Artisan) sem precisar possuir estas plataformas instaladas. Para rodá-los utilize:
+Este ambiente possui uns contêineres adicionais (Composer e Artisan) sem precisar possuir estas plataformas instaladas. Para rodá-los utilize:
 
 * docker-compose run --rm composer [comandos e/ou opções]
-* docker-compose run --rm npm [comandos e/ou opções]
 * docker-compose run --rm artisan [comandos e/ou opções]
 
 ----

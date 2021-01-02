@@ -62,14 +62,6 @@ services:
       - laravel
     entrypoint: ['composer', '--ignore-platform-reqs']
 
-  npm:
-    image: node:14.15.3
-    container_name: npm
-    volumes:
-      - ./src:/var/www/html
-    working_dir: /var/www/html
-    entrypoint: ['npm']
-
   artisan:
     build:
       context: .
