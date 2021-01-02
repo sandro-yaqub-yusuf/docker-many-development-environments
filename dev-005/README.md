@@ -12,9 +12,10 @@
 ## Descrição:
 
 Para instalar o LARAVEL mais atual, siga as instruções abaixo:
+* Crie a pasta "SRC" digitando => mkdir src
 * Entre na pasta "SRC" digitando => cd src
 * Crie um projeto LARAVEL digitando => docker-compose run --rm composer create-project laravel/laravel .
-* Utilize qualquer gerenciador de BD MySQL de sua preferência e cria um novo BD nele
+* Utilize qualquer gerenciador de BD MySQL de sua preferência e crie um novo BD nele
 * Configure o arquivo ".env" do LARAVEL com os dados de conexão com o seu BD criado
 * Saia da pasta "SRC" digitando => cd ..
 * Rode o "ARTISAN MIGRATE" digitando => docker-compose run --rm artisan migrate
